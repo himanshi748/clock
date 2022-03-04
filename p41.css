@@ -264,7 +264,7 @@ div.gm{
 }
 
 .party .partytime{
-      background: transparent linear-gradient(280deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+      background: transparent linear-gradient(280deg,#F1A7C5 0%,#FC5EFF 40%,  #CB52F8 81%, #6E54EC 100%) 0% 0% no-repeat padding-box;
       border-radius: 4px;
       opacity: 1;
       position: absolute;
