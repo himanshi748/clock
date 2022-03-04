@@ -8,9 +8,9 @@ body{
 	font-size: 30px;
 	position: absolute;
 	top: 34px;
-    left: 124px;
-    width: 204px;
-    height: 77px;
+        left: 124px;
+        width: 204px;
+        height: 77px;
     
 }
 @media(max-width: 500px){
@@ -23,8 +23,10 @@ body{
 
 	}
 	
-	span.t{visibility: hidden;
-		display: none;}
+	span.t{
+		visibility: hidden;
+		display: none;
+	}
 
 }
 .time{
@@ -32,9 +34,9 @@ body{
 	color: #3D087B;
 	size: 20px;
 	top: 60px;
-    right: 100px;
-    height: 26px;
-   position: relative;
+        right: 100px;
+        height: 26px;
+        position: relative;
     
 }
 @media(max-width: 500px){
@@ -46,7 +48,8 @@ body{
 	section{
 		left: 200px;
 	}
-	section.time1.time2.time3{
+	section.time1.time2.time3
+	{
 		top: 80px;
 		left: 50px;
 		position: absolute;
@@ -57,46 +60,42 @@ body{
 
 .time1{
 	
-right: 80px;
-width: 379px;
-height: 130px;
-background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 10px;
-opacity: 0.22;
-top: 32px;
-position: absolute;
-z-index: -1;
+       right: 80px;
+       width: 379px;
+       height: 130px;
+       background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+       background: #FFFFFF 0% 0% no-repeat padding-box;
+       border-radius: 10px;
+       opacity: 0.22;
+       top: 32px;
+       position: absolute;
+       z-index: -1;
     
-    
-}
+    }
 .time2{
 	position: absolute;
-	
-top: 18px;
-right: 65px;
-width: 416px;
-height: 130px;
-/* UI Properties */
-background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 10px;
-opacity: 80%;
-z-index: -2;
+	top: 18px;
+        right: 65px;
+        width: 416px;
+        height: 130px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        opacity: 80%;
+        z-index: -2;
 
 }
 .time3{
 
-top: 10px;
-left: 706px;
-width: 536px;
-height: 130px;
-
-background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-border: 1px solid var(--unnamed-color-ededed);
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 1px solid #EDEDED;
-border-radius: 10px;
+      top: 10px;
+      left: 706px;
+      width: 536px;
+      height: 130px;
+      background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+      border: 1px solid var(--unnamed-color-ededed);
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border: 1px solid #EDEDED;
+      border-radius: 10px;
 
 }
 @media(max-width: 500px){
@@ -142,15 +141,15 @@ select{
 	color: #9140B5;
 	left: 40px;
 	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--unnamed-color-ededed);
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #EDEDED;
-    border-radius: 4px;
-    opacity: 1;
-    text-align: center;
-    width: 380px;
-    height: 23px;
-    margin-top: 17px;
+        border: 1px solid var(--unnamed-color-ededed);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        opacity: 1;
+        text-align: center;
+        width: 380px;
+        height: 23px;
+        margin-top: 17px;
 }
 option{
 	font-size: 15px;
@@ -246,8 +245,9 @@ div.gm{
 }
  
 /*party*/
-.party .partyset{
-	background: transparent linear-gradient(280deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+.party .partyset
+{
+   background: transparent linear-gradient(280deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
    border-radius: 4px;
    opacity: 1;
    position: absolute;
@@ -264,7 +264,7 @@ div.gm{
 }
 
 .party .partytime{
-	  background: transparent linear-gradient(280deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+      background: transparent linear-gradient(280deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
       border-radius: 4px;
       opacity: 1;
       position: absolute;
@@ -311,14 +311,13 @@ div.gm{
  .tt{
  	color:violet;
  	background-color: #B27ECD;
-    border-radius: 10px;
- /*opacity: 0.23;*/
-    width: 300px;
-    height: 100px;
-    float: left;
-    margin-left: 500px;
-    margin-top: 500px;
-    text-align: center;
+        border-radius: 10px;
+        width: 300px;
+       height: 100px;
+       float: left;
+       margin-left: 500px;
+       margin-top: 500px;
+       text-align: center;
 
 }
 p.tt{
@@ -421,4 +420,9 @@ span.am{
 	vertical-align: center;
 	padding: 15px;
 	box-sizing: border-box;
+}
+@media(max-width: 500px){
+	section.time{
+		left: 232px;
+	}
 }
